@@ -4,7 +4,7 @@ import { Chess, Square, Move } from 'chess.js';
 import io from 'socket.io-client';
 import type { Socket as SocketType } from 'socket.io-client';
 
-const SOCKET_URL = 'http://localhost:4000';
+const SOCKET_URL = 'https://online-chess-uyrw.onrender.com';
 const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
 const ranks = [8, 7, 6, 5, 4, 3, 2, 1];
 
